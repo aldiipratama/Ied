@@ -51,14 +51,6 @@ html {
   text-align: center;
 }
 
-a {
-	color: black;
-}
-
-a:hover {
-	color: black;
-}
-
 .bg {
   background-image: url(img/ketupat.png);
   background-position: center center;
@@ -79,8 +71,28 @@ a:hover {
   width: 350px;
 }
 
+@font-face {
+  font-family: ChunkFivePrint;
+  src: url(font/ChunkFivePrint.otf);
+}
+
+#teks {
+  margin: 0;
+  padding: 0;
+  margin-top: 300px;
+  display: inline-block;
+  font-size: 50px;
+  font-family: 'ChunkFivePrint', arial;
+}
+
 #tap {
   display: inline-block;
+  color: white;
+  background-color: skyblue;
+}
+
+#tap:hover {
+    background-color: blue;
 }
 
 #klik {
